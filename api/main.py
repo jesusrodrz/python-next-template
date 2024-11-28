@@ -1,8 +1,8 @@
 import uvicorn
 from fastapi import FastAPI
 from shared.environment import Environment
-app = FastAPI()
 
+app = FastAPI()
 
 @app.get("/")
 async def main():
