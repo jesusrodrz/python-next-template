@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-export default function Home() {
-  return (
-    <div > app </div>
-  );
+export default function () {
+  return <div> app </div>;
 }
